@@ -2,12 +2,42 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
-  font-size: 62.5%;
+ 
+}
+
+:root{
+--primary-font-color:#ffff;
 
 }
 
-body{
-  background: rgb(107,107,241);
-  font:normal 15pt Arial;
 
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: rgb(70,142,236);
+  font:normal 1.5rem Arial;
+
+}
+
+header{
+  color:var(--primary-font-color);
+  text-align: center;
+
+}
+
+section{
+  background:var(--primary-font-color);
+  border-radius:1.0rem;
+  padding:1.5rem;
+  width:50rem;
+  margin: auto;
+  box-shadow: .3rem .3rem 1.0rem rgba(0, 0, 0, 0.363);
+}
+
+footer{
+  color:var(--primary-font-color);
+  text-align: center;
+  font-style: italic;
 }
